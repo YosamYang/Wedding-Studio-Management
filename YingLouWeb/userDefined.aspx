@@ -137,7 +137,7 @@
                                     <div class="thumbnail">
                                         <img src="uploadfiles/CDCJ.jpg" alt="...">
                                         <div class="caption">
-                                            <h3>草原风光 ￥<span id="CDCJ">320</span></h3>
+                                            <h3>草原 ￥<span id="CDCJ">520</span></h3>
                                             <p>The Choice Is Yours!</p>
                                             <p>
                                                 <input class="btn btn-primary" type="Button" name="Button" onclick="handlebtnClick(101)" value="确认选择" />
@@ -152,8 +152,8 @@
                                     <div class="thumbnail">
                                         <img src="uploadfiles/HJCJ.jpg" alt="...">
                                         <div class="caption">
-                                            <h3>海边场景 ￥<span id="HJCJ">320</span></h3>
-                                            <p>...</p>
+                                            <h3>海边 ￥<span id="HJCJ">520</span></h3>
+                                            <p>The Choice Is Yours!</p>
                                             <p>
                                                 <input class="btn btn-primary" type="Button" name="Button" onclick="handlebtnClick(102)" value="确认选择" />
                                                 <input class="btn btn-default" type="Button" name="Button" onclick="handlebtnUnClick(102)" value="取消" />
@@ -167,7 +167,7 @@
                                     <div class="thumbnail">
                                         <img src="uploadfiles/JSJD.jpg" alt="...">
                                         <div class="caption">
-                                            <h3>草原风光 ￥<span id="JSJD">320</span></h3>
+                                            <h3>教室 ￥<span id="JSJD">520</span></h3>
                                             <p>The Choice Is Yours!</p>
                                             <p>
                                                 <input class="btn btn-primary" type="Button" name="Button" onclick="handlebtnClick(103)" value="确认选择" />
@@ -184,8 +184,8 @@
                                     <div class="thumbnail">
                                         <img src="uploadfiles/NGCD.jpg" alt="...">
                                         <div class="caption">
-                                            <h3>草原风光 ￥<span id="NGCD">320</span></h3>
-                                            <p>...</p>
+                                            <h3>内景 ￥<span id="NGCD">520</span></h3>
+                                            <p>The Choice Is Yours!</p>
                                             <p>
                                                 <input class="btn btn-primary" type="Button" name="Button" onclick="handlebtnClick(104)" value="确认选择" />
                                                 <input class="btn btn-default" type="Button" name="Button" onclick="handlebtnUnClick(104)" value="取消" />
@@ -199,8 +199,8 @@
                                     <div class="thumbnail">
                                         <img src="uploadfiles/XGCJ.jpg" alt="...">
                                         <div class="caption">
-                                            <h3>草原风光 ￥<span id="XGCJ">320</span></h3>
-                                            <p>...</p>
+                                            <h3>街景 ￥<span id="XGCJ">520</span></h3>
+                                            <p>The Choice Is Yours!</p>
                                             <p>
                                                 <input class="btn btn-primary" type="Button" name="Button" onclick="handlebtnClick(105)" value="确认选择" />
                                                 <input class="btn btn-default" type="Button" name="Button" onclick="handlebtnUnClick(105)" value="取消" />
@@ -214,8 +214,8 @@
                                     <div class="thumbnail">
                                         <img src="uploadfiles/YJCD.jpg" alt="...">
                                         <div class="caption">
-                                            <h3>草原风光 ￥<span id="YJCD">320</span></h3>
-                                            <p>...</p>
+                                            <h3>夜景 ￥<span id="YJCD">520</span></h3>
+                                            <p>The Choice Is Yours!</p>
                                             <p>
                                                 <input class="btn btn-primary" type="Button" name="Button" onclick="handlebtnClick(106)" value="确认选择" />
                                                 <input class="btn btn-default" type="Button" name="Button" onclick="handlebtnUnClick(106)" value="取消" />
@@ -239,8 +239,8 @@
                                     <div class="thumbnail">
                                         <img src="uploadfiles/CTHS.jpg" alt="...">
                                         <div class="caption">
-                                            <h3>草原风光 ￥<span id="CTHS">320</span></h3>
-                                            <p>...</p>
+                                            <h3>中式古典 ￥<span id="CTHS">521</span></h3>
+                                            <p>The Choice Is Yours!</p>
                                             <p>
                                                 <input class="btn btn-primary" type="Button" name="Button" onclick="handlebtnClick(107)" value="确认选择" />
                                                 <input class="btn btn-default" type="Button" name="Button" onclick="handlebtnUnClick(107)" value="取消" />
@@ -254,8 +254,8 @@
                                     <div class="thumbnail">
                                         <img src="uploadfiles/duanHS.jpg" alt="...">
                                         <div class="caption">
-                                            <h3>草原风光 ￥<span id="duanHS">320</span></h3>
-                                            <p>...</p>
+                                            <h3>俏皮婚纱 ￥<span id="duanHS">521</span></h3>
+                                            <p>The Choice Is Yours!</p>
                                             <p>
                                                 <input class="btn btn-primary" type="Button" name="Button" onclick="handlebtnClick(108)" value="确认选择" />
                                                 <input class="btn btn-default" type="Button" name="Button" onclick="handlebtnUnClick(108)" value="取消" />
@@ -269,8 +269,8 @@
                                     <div class="thumbnail">
                                         <img src="uploadfiles/RCHS.jpg" alt="...">
                                         <div class="caption">
-                                            <h3>草原风光 ￥<span id="RCHS">320</span></h3>
-                                            <p>...</p>
+                                            <h3>时尚装扮 ￥<span id="RCHS">521</span></h3>
+                                            <p>The Choice Is Yours!</p>
                                             <p>
                                                 <input class="btn btn-primary" type="Button" name="Button" onclick="handlebtnClick(109)" value="确认选择" />
                                                 <input class="btn btn-default" type="Button" name="Button" onclick="handlebtnUnClick(109)" value="取消" />
@@ -286,8 +286,8 @@
                                     <div class="thumbnail">
                                         <img src="uploadfiles/refresh.jpg" alt="...">
                                         <div class="caption">
-                                            <h3>草原风光 ￥<span id="refresh">320</span></h3>
-                                            <p>...</p>
+                                            <h3>搞怪服饰 ￥<span id="refresh">521</span></h3>
+                                            <p>The Choice Is Yours!</p>
                                             <p>
                                                 <input class="btn btn-primary" type="Button" name="Button" onclick="handlebtnClick(110)" value="确认选择" />
                                                 <input class="btn btn-default" type="Button" name="Button" onclick="handlebtnUnClick(110)" value="取消" />
@@ -301,8 +301,8 @@
                                     <div class="thumbnail">
                                         <img src="uploadfiles/yuweiHS.png" alt="...">
                                         <div class="caption">
-                                            <h3>草原风光 ￥<span id="yuweiHS">320</span></h3>
-                                            <p>...</p>
+                                            <h3>传统婚纱 ￥<span id="yuweiHS">521</span></h3>
+                                            <p>The Choice Is Yours!</p>
                                             <p>
                                                 <input class="btn btn-primary" type="Button" name="Button" onclick="handlebtnClick(111)" value="确认选择" />
                                                 <input class="btn btn-default" type="Button" name="Button" onclick="handlebtnUnClick(111)" value="取消" />

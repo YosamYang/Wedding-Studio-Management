@@ -41,7 +41,7 @@ public partial class Shopping : System.Web.UI.Page
         int Price = Convert.ToInt32(Request.QueryString["price"]);
         if (Name != null && Price != 0)
         {
-            SqlDataReader dr = data.GetDataReader("select top 1 * from tb_OrderInfo where GoodsID= 0 and  OrderMember='" + Session["users"].ToString() + "' and  DingDanTime ='" + Convert.ToInt64(Request.QueryString["time"]) + "' order by id desc  ");
+            SqlDataReader dr = data.GetDataReader("select top 1 * from [tb_Order] where [Ordeuser] ='" + Session["users"].ToString() + "' and  DingDanTime ='" + Request.QueryString["time"] + "' order by id desc  ");
             if (dr.Read())
             {
                 
