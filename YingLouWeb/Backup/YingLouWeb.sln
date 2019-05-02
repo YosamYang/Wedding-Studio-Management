@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Backup", ".", "{26F60FD9-8A13-4B8D-BB7E-FC9C0597A1C0}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/YingLouWeb"
+		Debug.AspNetCompiler.PhysicalPath = "..\YingLouWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\YingLouWeb\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/YingLouWeb"
+		Release.AspNetCompiler.PhysicalPath = "..\YingLouWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\YingLouWeb\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63506"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26F60FD9-8A13-4B8D-BB7E-FC9C0597A1C0}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{26F60FD9-8A13-4B8D-BB7E-FC9C0597A1C0}.Debug|.NET.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6A2DB1E-2CEF-48AD-B950-2B622C0D8AE8}
+	EndGlobalSection
+EndGlobal

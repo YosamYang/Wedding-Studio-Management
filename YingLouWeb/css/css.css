@@ -1,0 +1,175 @@
+body {
+    width: 80%;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+    background-color: aliceblue;
+}
+body,td,th {
+	font-size: 12px;
+	color: #323232;
+	line-height: 21px;
+	background-repeat: repeat-x;
+	background-position: center;
+}
+
+
+a{
+  color: #323232;
+  }
+/*.left1 {
+    border: 1px solid #99CCCC;
+    height: 190px;
+}*/
+.left1 .indexintro {
+	padding: 10px;
+}
+.indexnews {
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-color: #99CCCC;
+    border-bottom-color: #99CCCC;
+    border-left-color: #99CCCC;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+.li1 {
+	line-height: 27px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #eed6d2;
+	background-image: url(images/index_33.gif);
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	display: block;
+}
+.li2 {
+	line-height: 27px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #eed6d2;
+	padding-left: 10px;
+}
+.znxs {
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #A8301E;
+	border-left-color: #A8301E;
+	padding: 10px;
+}
+.yxwl {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #A8301E;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+.white a {
+	color: #FFFFFF;
+	line-height: 32px;
+}
+.white {
+	color: #FFFFFF;
+	background-image: url(../images/index_11.gif);
+	background-repeat: repeat-x;
+}
+
+.white1 {
+	background-image: url(../images/index_11.gif);
+	background-repeat: repeat-x;
+	color: #FFFFFF;
+}
+.leftmenutop {
+	background-image: url(../images/but01-a.png);
+	height: 30px;
+	padding-left: 20px;
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #666666;
+}
+.leftmenuli {
+	color: #FF0000;
+	height: 25px;
+	padding-left: 60px;
+}
+.leftmenuli a{
+	color: #FF0000;
+
+}
+.blue {
+	color: #65899F;
+}
+.red {
+	color: #333;
+}
+.line {
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: dashed;
+	border-left-style: none;
+	border-bottom-color: #CCC;
+}
+
+.imgbk {
+	padding: 1px;
+	border: 1px solid #A8301E;
+}
+.grey {
+	color: #a9a9a9;
+}
+.grey a{
+	color: #a9a9a9;
+}
+.white2 a {
+	color: #FFFFFF;
+	line-height: 32px;
+}
+.white2 {
+	color: #FFFFFF;
+	background-image: url(../images/index_63.gif);
+	background-repeat: repeat-x;
+}
+img{
+border:none;
+}
+.lefttt1 {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+}
+
+.highlightit img{
+border: 2px solid #ccc;
+}
+
+.highlightit:hover img
+{
+	border-right: coral 2px solid;
+	border-top: coral 2px solid;
+	border-left: coral 2px solid;
+	border-bottom: coral 2px solid;
+}
+
+.highlightit:hover{
+    color: red; /* Dummy definition to overcome IE bug */
+}
