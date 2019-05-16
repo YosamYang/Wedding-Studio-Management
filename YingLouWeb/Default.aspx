@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+
 <%@ Register Src="WebUserControl/Left.ascx" TagName="Left" TagPrefix="uc1" %>
 <%@ Register Src="~/WebUserControl/top.ascx" TagName="top" TagPrefix="cc1" %>
 <%@ Register Src="~/WebUserControl/foot.ascx" TagName="foot" TagPrefix="cc2" %>
@@ -7,7 +8,7 @@
 <head id="Head1" runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>影楼管理系统</title>
-    <link href="css/css.css" rel="stylesheet" type="text/css" />  
+    <link href="css/css.css" rel="stylesheet" type="text/css" />
     <style type="text/css">
         /*table{
             width:80%;
@@ -21,11 +22,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <%--这里是top栏--%>
         <cc1:top ID="top" runat="server" />
-        <table border="0" cellpadding="0" cellspacing="0" bgcolor="#fff" style =" width:80%; text-align: center; position: relative; left:10%;  top: 453px;">
-            <tr>
-                <td height="5" colspan="3" valign="top"></td>
-            </tr>
+        <table border="0" cellpadding="0" cellspacing="0" bgcolor="#fff" style="width: 80%; text-align: center; position: relative; left: 10%; top: 453px;">
             <tr>
                 <td width="3" valign="top">&nbsp;</td>
                 <td valign="top" class="picbk" style="padding-top: 4px;">
@@ -66,7 +65,7 @@
                                                         <tr>
                                                             <td>
                                                                 <a class="highlightit" href='ShowSheYing.aspx?id=<%#Eval("GoodsID") %>'>
-                                                                    <img alt="" border="0" src='<%#Eval("GoodsPhoto")%>' style="width: 300px; height: 210px" /></a></td>
+                                                                <img alt="" border="0" src='<%#Eval("GoodsPhoto")%>' style="width: 300px; height: 210px" /></a></td>
                                                         </tr>
                                                         <tr>
                                                             <td>
@@ -76,9 +75,6 @@
                                                             </td>
                                                         </tr>
                                                     </table>
-
-
-
                                                 </ItemTemplate>
                                             </asp:DataList></td>
 
@@ -94,7 +90,7 @@
                 <td height="5" colspan="3" valign="top"></td>
             </tr>
         </table>
-        <table width= 80% border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" style="position: relative; top: 456px;">
+        <table width="80%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" style="position: relative; top: 456px;">
             <tr>
                 <td valign="top" style="width: 300px">
                     <table border="0" cellpadding="0"
@@ -113,9 +109,9 @@
                     </table>
                 </td>
                 <td valign="top" align="center" style="width: 80%; height: 550px;">
-                    <table border="0" cellspacing="0" cellpadding="0" style="width: 80%;/* border-right: #009933 0.1mm solid; *//* border-top: #009933 0.1mm solid; *//* border-bottom: #009933 0.1mm solid; */">
+                    <table border="0" cellspacing="0" cellpadding="0" style="width: 80%; /* border-right: #009933 0.1mm solid; *//* border-top: #009933 0.1mm solid; *//* border-bottom: #009933 0.1mm solid; */">
                         <tr>
-                            <td style="font-size: 24px; height: 28px; text-align: center;font-weight:bold;">最新商品</td>
+                            <td style="font-size: 24px; height: 28px; text-align: center; font-weight: bold;">最新商品</td>
                         </tr>
 
                         <tr>
@@ -148,7 +144,7 @@
                 <td height="10" colspan="2" valign="top"></td>
             </tr>
         </table>
-        <div style ="width: 80%; left: 10%; position: relative; top: 458px; background-color: #fff;">
+        <div style="width: 80%; left: 10%; position: relative; top: 458px; background-color: #fff;">
             <cc2:foot ID="foot1" runat="server" />
         </div>
     </form>
